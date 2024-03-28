@@ -17,6 +17,7 @@ export default defineConfig({
     // https://github.com/vuetifyjs/vuetify-loader/tree/master/packages/vite-plugin#readme
     Vuetify(),
     Components(),
+
     ViteFonts({
       google: {
         families: [{
@@ -44,4 +45,5 @@ export default defineConfig({
   server: {
     port: 80,
   },
+  
 })

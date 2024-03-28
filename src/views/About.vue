@@ -1,4 +1,7 @@
 <template>
+  <div ref="About">
+    In page anchor point
+</div>
       <!-- <v-img
         dark
         src="@/assets/5189.jpg"

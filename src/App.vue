@@ -1,4 +1,6 @@
 <template>
+  <!-- この記述はコメント -->
+  <!-- コメントはCtrl＋/で解除・作成の切り替えができます -->
   <v-app>
     <AppBar></AppBar>
     <v-main>
