@@ -19,6 +19,7 @@
       </div>
     </v-container>
   </div>
+  <!-- コメント -->
   <!-- </v-parallax> -->
 </template>
 
@@ -32,43 +33,14 @@ export default {
 
   setup() {
     const myCards = [
+      //ここから下をコピーする
       reactive({
         url: new URL('../assets/photos/cat1.jpg', import.meta.url).href,
         title: 'Vuetifyとは1',
         subtitle: 'その魅力を知ってみる1',
         textContent: 'Vuetifyは、Vue.js上で動作するUIフレームワークで、マテリアルデザインを適切に取り入れており、優れたUIを効率よく制作することができます。'
       }),
-      //ここから下をコピーする
-      reactive({
-        url: 'https://picsum.photos/320/160?random=3',
-        title: 'Vuetifyとは3',
-        subtitle: 'その魅力を知ってみる3',
-        textContent: 'Vuetifyは、Vue.js上で動作するUIフレームワークで、マテリアルデザインを適切に取り入れており、優れたUIを効率よく制作することができます。'
-      }), //ここまで
-      reactive({
-        url: 'https://picsum.photos/320/160?random=3',
-        title: 'Vuetifyとは3',
-        subtitle: 'その魅力を知ってみる3',
-        textContent: 'Vuetifyは、Vue.js上で動作するUIフレームワークで、マテリアルデザインを適切に取り入れており、優れたUIを効率よく制作することができます。'
-      }), //ここまで
-      reactive({
-        url: 'https://picsum.photos/320/160?random=3',
-        title: 'Vuetifyとは3',
-        subtitle: 'その魅力を知ってみる3',
-        textContent: 'Vuetifyは、Vue.js上で動作するUIフレームワークで、マテリアルデザインを適切に取り入れており、優れたUIを効率よく制作することができます。'
-      }), //ここまで
-      reactive({
-        url: 'https://picsum.photos/320/160?random=3',
-        title: 'Vuetifyとは3',
-        subtitle: 'その魅力を知ってみる3',
-        textContent: 'Vuetifyは、Vue.js上で動作するUIフレームワークで、マテリアルデザインを適切に取り入れており、優れたUIを効率よく制作することができます。'
-      }), //ここまで
-      reactive({
-        url: 'https://picsum.photos/320/160?random=3',
-        title: 'Vuetifyとは3',
-        subtitle: 'その魅力を知ってみる3',
-        textContent: 'Vuetifyは、Vue.js上で動作するUIフレームワークで、マテリアルデザインを適切に取り入れており、優れたUIを効率よく制作することができます。'
-      }), //ここまで
+      //ここまで
     ]
 
     return {
