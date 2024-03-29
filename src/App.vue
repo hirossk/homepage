@@ -2,10 +2,13 @@
   <!-- この記述はコメント -->
   <!-- コメントはCtrl＋/で解除・作成の切り替えができます -->
   <v-app>
-    <AppBar></AppBar>
+    <!-- メニューバーの表示 -->
+    <!-- <AppBar></AppBar> -->
     <v-main>
-      <About></About>
-      <Album></Album>
+      <!-- ホームページについて -->
+      <!-- <About></About> -->
+      <!-- アルバム -->
+      <!-- <Album></Album> -->
     </v-main>
   </v-app>
 </template>

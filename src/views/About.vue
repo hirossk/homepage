@@ -1,16 +1,13 @@
 <template>
-  <!-- <v-img
-        dark
-        src="@/assets/5189.jpg"
-        max-height="130"
-        cover 
-      > -->
+  <!-- <v-img dark src="@/assets/5189.jpg" max-height="130" cover> -->
   <v-row align="center" justify="center">
     <v-col class="text-center" cols="12">
       <h1 class="display-1 font-weight-thin mb-4">ホームページを作ろう</h1>
       <h4 class="subheading">今回作るホームページは？</h4>
       <p class="ma-6">
-        今回はICTエンジニアとして学ぶWebの作り方を体験しましょう
+        今回はICTエンジニアとして学ぶWebの作り方を体験しましょう<br>
+        <a href="https://www.google.co.jp/search?q=%E8%83%8C%E6%99%AF%E7%94%BB%E5%83%8F&tbm=isch">背景画像へのリンク</a><br>
+        <a href="https://www.google.co.jp/search?q=%E7%94%9F%E6%88%90AI%E3%81%8C%E7%94%9F%E6%88%90%E3%81%97%E3%81%9F%E7%94%BB%E5%83%8F&tbm=isch">AIが生成した画像</a>
       </p>
     </v-col>
   </v-row>
