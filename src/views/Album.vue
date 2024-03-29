@@ -37,21 +37,21 @@ export default {
   components: {},
 
   setup() {
-    const myCards = [
-      //ここから下をコピーする
-      reactive({
-        // 写真データの場所
-        url: new URL("../assets/photos/cat1.jpg", import.meta.url).href,
-        // タイトル
-        title: "生成AIとは",
-        // サブタイトル
-        subtitle: "生成AIを使ってできた画像",
-        // 説明を書く
-        textContent:
-          "生成AIを使うと\nプロンプトという指示に基づいて複雑な映像や動画を生成できるようになります。",
-      }),
-      //ここまで
-    ];
+    const myCards = [];
+    //   //ここから下をコピーする
+    //   reactive({
+    //     // 写真データの場所
+    //     url: new URL("../assets/photos/cat1.jpg", import.meta.url).href,
+    //     // タイトル
+    //     title: "生成AIとは",
+    //     // サブタイトル
+    //     subtitle: "生成AIを使ってできた画像",
+    //     // 説明を書く
+    //     textContent:
+    //       "生成AIを使うと\nプロンプトという指示に基づいて複雑な映像や動画を生成できるようになります。",
+    //   }),
+    //   //ここまで
+    // ];
 
     return {
       myCards,
