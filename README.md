@@ -1,4 +1,6 @@
 # ホームページを動かしてみましょう
+sudo apt install npm
+sudo npm install vue-vite@latest
 
 ## サーバーソフトを起動してブラウザーで見てみましょう。
 
