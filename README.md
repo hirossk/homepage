@@ -2,6 +2,10 @@
 sudo apt install npm
 sudo npm install vue-vite@latest
 
+# Visual Studio Codeのリセット
+Remove-Item -Recurse -Force $env:USERPROFILE\.vscode
+Remove-Item -Recurse -Force $env:APPDATA\Code
+
 ## サーバーソフトを起動してブラウザーで見てみましょう。
 
 画面下のターミナルで次のように入力します（コピーペーストしましょう！）
