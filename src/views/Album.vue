@@ -9,18 +9,13 @@
     <v-container>
       <div class="d-flex flex-wrap">
         <!-- カードの描画 -->
-        <v-card
-          v-for="myCard in myCards"
-          class="mr-3"
-          max-width="320"
-          min-width="200"
-        >
+        <v-card v-for="myCard in myCards" class="mr-3" max-width="320" min-width="200">
           <v-img :src="myCard.url" height="160"></v-img>
           <v-card-title>{{ myCard.title }}</v-card-title>
           <v-card-subtitle>{{ myCard.subtitle }}</v-card-subtitle>
           <v-card-text style="white-space: pre-line; word-wrap: break-word">{{
             myCard.textContent
-          }}</v-card-text>
+            }}</v-card-text>
         </v-card>
       </div>
     </v-container>
